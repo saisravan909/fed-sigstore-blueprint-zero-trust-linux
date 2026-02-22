@@ -1,0 +1,15 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: verify-sbom-exists
+spec:
+  rules:
+    - name: check-sbom
+      match:
+        any:
+        - resources:
+            kinds: [Pod]
+      verifyImages:
+        - imageReferences: ["ghcr.io/your-username/*"]
+          attestations:
+            - predicateType: https://cyclonedx.org/schema/1.4
