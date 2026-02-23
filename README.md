@@ -3,7 +3,11 @@
 </p>
 
 # Federal Sigstore Blueprint: Zero Trust for Linux
-
+<p align="center">
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/Focus-Federal%20Zero%20Trust-red" alt="Focus">
+  <img src="https://img.shields.io/badge/Security-Sigstore-green" alt="Security">
+</p>
 This repository provides a reference architecture and implementation framework for scaling **Sigstore (Cosign/Rekor)** within federal DevSecOps environments. 
 
 ## Key Features
