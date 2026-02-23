@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo1.png" width="300" alt="Federal Sigstore Blueprint Logo">
+</p>
+
 # Federal Sigstore Blueprint: Zero Trust for Linux
 
 This repository provides a reference architecture and implementation framework for scaling **Sigstore (Cosign/Rekor)** within federal DevSecOps environments. 
