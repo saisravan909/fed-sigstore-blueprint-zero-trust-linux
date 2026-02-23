@@ -14,6 +14,7 @@ This repository provides a reference architecture and implementation framework f
 * **Policy-as-Code:** Automated Kyverno policies for signature and SBOM enforcement.
 * **Keyless Attestation:** Alignment with EO 14028 using OIDC identity.
 * **Vulnerability Guardrails:** Enforcement of security thresholds before deployment.
+```mermaid
 graph TD
     A[Developer/CI Pipeline] -->|1. Sign & Attest| B(Sigstore/Cosign)
     B -->|2. Log Entry| C{Rekor Transparency Ledger}
@@ -25,7 +26,7 @@ graph TD
     F -->|6. Check Transparency| C
     F -->|7. Enforce Policy| G[Running Pod]
     end
-
+```
     style G fill:#9f9,stroke:#333,stroke-width:2px
     style F fill:#f96,stroke:#333,stroke-width:2px
 ## Structure
