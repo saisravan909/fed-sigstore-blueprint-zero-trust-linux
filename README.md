@@ -23,3 +23,4 @@ graph TD
 ## Structure
 * `/policies`: Kyverno ClusterPolicies for admission control.
 * `/pipeline`: Automation scripts for signing and attestation.
+* docs/compliance-mapping.md: Mapping of policies to NIST 800-53 security controls.
