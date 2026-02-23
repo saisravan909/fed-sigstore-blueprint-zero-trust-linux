@@ -26,9 +26,10 @@ graph TD
     F -->|6. Check Transparency| C
     F -->|7. Enforce Policy| G[Running Pod]
     end
-```
+
     style G fill:#9f9,stroke:#333,stroke-width:2px
     style F fill:#f96,stroke:#333,stroke-width:2px
+```
 ## Structure
 * `/policies`: Kyverno ClusterPolicies for admission control.
 * `/pipeline`: Automation scripts for signing and attestation.
