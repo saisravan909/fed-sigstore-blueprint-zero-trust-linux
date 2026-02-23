@@ -34,3 +34,8 @@ graph TD
 * `/policies`: Kyverno ClusterPolicies for admission control.
 * `/pipeline`: Automation scripts for signing and attestation.
 * docs/compliance-mapping.md: Mapping of policies to NIST 800-53 security controls.
+##  Quick Start
+To test the blueprint locally:
+1. **Install Cosign:** `brew install cosign` (or your Linux package manager).
+2. **Run the Script:** `./pipeline/sign-and-attest.sh`
+3. **Verify Compliance:** Check `docs/compliance-mapping.md` for specific NIST control alignment.
