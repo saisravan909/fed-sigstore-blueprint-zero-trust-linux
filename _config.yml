@@ -1,0 +1,10 @@
+title: Fed-Sigstore Blueprint
+description: Zero Trust Linux Supply Chain Security
+remote_theme: just-the-docs/just-the-docs
+
+# Enable Mermaid diagrams
+has_mermaid: true
+
+# Optional: Improves SEO and navigation
+url: "https://saisravan909.github.io"
+baseurl: "/fed-sigstore-blueprint-zero-trust-linux"
