@@ -49,3 +49,29 @@ To test the blueprint locally:
 1. **Install Cosign:** `brew install cosign` (or your Linux package manager).
 2. **Run the Script:** `./pipeline/sign-and-attest.sh`
 3. **Verify Compliance:** Check `docs/compliance-mapping.md` for specific NIST control alignment.
+
+##  Roadmap
+[x] Phase 1: Core Keyless Signing Scripts
+
+[x] Phase 2: Kyverno Admission Policies
+
+[ ] Phase 3: Hardware Security Module (HSM) Integration
+
+[ ] Phase 4: Automated CISA KEV Vulnerability Guardrails
+
+## Project Leadership
+This initiative bridges the gap between rigorous mathematics and scalable cloud engineering.
+
+Sai Sravan Cherukuri — Visionary & Lead Architect
+
+Sai Saketh Cherukuri — Lead Architect
+
+M.S. in Mathematics and Computer Science
+
+Specializing in the algorithmic verification of security controls and formal compliance mapping.
+
+## Contributing
+We are seeking technical partners, DevSecOps engineers, and Security Architects to help build the enforcement engine. Please read our Contributing Guide to get started.
+
+## License
+This project is licensed under the Apache License 2.0.
