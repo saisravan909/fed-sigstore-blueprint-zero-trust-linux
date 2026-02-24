@@ -10,6 +10,16 @@
 </p>
 This repository provides a reference architecture and implementation framework for scaling **Sigstore (Cosign/Rekor)** within federal DevSecOps environments. 
 
+## Introduction
+### Institutionalizing Zero Trust and Software Supply Chain Security for Federal Linux Clusters
+
+The Federal Sigstore Blueprint is an open-source reference architecture and implementation framework designed to scale Sigstore (Cosign/Rekor) within federal DevSecOps environments. It automates the "Verify-Before-Deploy" lifecycle, transforming security requirements into automated, auditable guardrails.
+
+### The Challenge
+Federal agencies face a critical hurdle: implementing "Zero Trust" without paralyzing the development lifecycle. Traditional manual GPG key management and decentralized signing processes create significant points of failure, leading to "compliance debt" and increased vulnerability to supply chain attacks.
+
+### Our Solution
+This repository provides the tools to automate policy enforcement and align with EO 14028 and OMB M-22-18. By leveraging OIDC identity, we eliminate long-lived private keys and provide a "GAO-ready" immutable audit trail.
 ## Key Features
 * **Policy-as-Code:** Automated Kyverno policies for signature and SBOM enforcement.
 * **Keyless Attestation:** Alignment with EO 14028 using OIDC identity.
