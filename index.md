@@ -68,9 +68,9 @@ To test the blueprint locally:
 ## Project Leadership
 This initiative bridges the gap between rigorous mathematics and scalable cloud engineering.
 
-Sai Sravan Cherukuri — Visionary & Lead Architect
+## Sai Sravan Cherukuri — Visionary & Lead Architect
 
-Sai Saketh Cherukuri — Lead Architect
+## Sai Saketh Cherukuri — Lead Architect
 
 M.S. in Mathematics and Computer Science
 
