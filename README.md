@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
 <p align="center">
   <img src="logo1.png" width="300" alt="Federal Sigstore Blueprint Logo">
 </p>
