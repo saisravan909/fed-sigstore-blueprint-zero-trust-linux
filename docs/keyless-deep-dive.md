@@ -41,9 +41,6 @@ sequenceDiagram
     Dev->>Rek: Upload signature & cert
     Dev->>Reg: Push signed image & .sig tag
     Dev->>Dev: DISCARD PRIVATE KEY
-
 ```
-43:    Dev->>Dev: DISCARD PRIVATE KEY
-44: ```
-45:
-46: ### 🪄 Next Steps
+
+### 🪄 Next Steps
