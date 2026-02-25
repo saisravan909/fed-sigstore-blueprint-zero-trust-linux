@@ -81,3 +81,5 @@ We are seeking technical partners, DevSecOps engineers, and Security Architects 
 
 ## License
 This project is licensed under the Apache License 2.0.
+
+[![Latest Release](https://img.shields.io/github/v/release/saisravan909/fed-sigstore-blueprint-zero-trust-linux?include_prereleases&color=blue&label=Latest%20Release)](https://github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux/releases/latest)
