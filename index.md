@@ -32,7 +32,7 @@ This repository provides the tools to automate policy enforcement and align with
 * **Vulnerability Guardrails:** Enforcement of security thresholds before deployment.
 ```mermaid
 graph TD
-    A[Developer/CI Pipeline] -->|Sign and Attest| B[Sigstore/Cosign]
+    A[Developer CI Pipeline] -->|Sign and Attest| B[Sigstore/Cosign]
     B -->|Log Entry| C[Rekor Transparency Ledger]
     A -->|Push Image| D[Container Registry]
 
