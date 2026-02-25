@@ -16,7 +16,7 @@ As an initiative born from the intersection of rigorous mathematics and cloud en
 
 If you discover a potential security flaw in these policies or scripts, please report it via one of the following methods:
 
-1. **Email:** [INSERT YOUR PROFESSIONAL EMAIL HERE]
+1. **Email:** saisravan@gmail.com
 2. **Details:** Include a description of the vulnerability, the potential impact, and clear steps to reproduce (PoC).
 3. **Timeline:** We will acknowledge receipt of your report within **48 hours** and provide a timeline for resolution.
 
