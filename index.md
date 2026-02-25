@@ -83,3 +83,10 @@ We are seeking technical partners, DevSecOps engineers, and Security Architects 
 This project is licensed under the Apache License 2.0.
 
 [![Latest Release](https://img.shields.io/github/v/release/saisravan909/fed-sigstore-blueprint-zero-trust-linux?include_prereleases&color=blue&label=Latest%20Release)](https://github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux/releases/latest)
+
+## Project Health Dashboard
+
+| Security & Compliance | Development Status | Community |
+| :--- | :--- | :--- |
+| [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux/badge)](https://securityscorecards.dev/viewer/?uri=github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux) | [![Latest Release](https://img.shields.io/github/v/release/saisravan909/fed-sigstore-blueprint-zero-trust-linux?include_prereleases&color=blue)](https://github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux/releases) | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) |
+| [![Security Policy](https://img.shields.io/badge/Security-Policy-brightgreen.svg)](SECURITY.md) | [![Build Status](https://github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux/actions/workflows/scorecard.yml/badge.svg)](https://github.com/saisravan909/fed-sigstore-blueprint-zero-trust-linux/actions) | [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md) |
