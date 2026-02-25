@@ -40,7 +40,7 @@ sequenceDiagram
     Dev->>Dev: Sign Container Image
     Dev->>Rek: Upload signature & cert
     Dev->>Reg: Push signed image & .sig tag
-    Dev->>Dev: DISCARD PRIVATE KEY
+   Dev->>Dev: DISCARD PRIVATE KEY
 ```
 
 ### 🪄 Next Steps
