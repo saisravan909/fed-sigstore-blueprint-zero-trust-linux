@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="logo1.png" width="300" alt="Federal Sigstore Blueprint Logo">
+</p>
+
+
 # Federal Sigstore Blueprint: Zero Trust for Linux
 
 | Security & Compliance | Project Maturity | Community Support |
