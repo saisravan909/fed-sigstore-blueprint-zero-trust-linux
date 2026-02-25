@@ -4,7 +4,7 @@ title: "Technical Deep Dive: Keyless Attestation"
 nav_order: 2
 ---
 
-# Technical Deep Dive: Keyless Attestation 🔐
+# Technical Deep Dive: Keyless Attestation 
 
 Traditional code signing relies on long-lived private keys (GPG/RSA) that are difficult to rotate and easy to steal. This blueprint moves the federal "Root of Trust" from **something you have (a key)** to **something you are (an identity)**.
 
@@ -41,3 +41,9 @@ sequenceDiagram
     Dev->>Rek: Upload signature & cert
     Dev->>Reg: Push signed image & .sig tag
     Dev->>Dev: DISCARD PRIVATE KEY
+
+```
+43:    Dev->>Dev: DISCARD PRIVATE KEY
+44: ```
+45:
+46: ### 🪄 Next Steps
