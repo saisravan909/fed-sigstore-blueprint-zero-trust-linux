@@ -32,15 +32,15 @@ This repository provides the tools to automate policy enforcement and align with
 * **Vulnerability Guardrails:** Enforcement of security thresholds before deployment.
 ```mermaid
 graph TD
-    A[Developer/CI Pipeline] -->|1. Sign & Attest| B(Sigstore/Cosign)
-    B -->|2. Log Entry| C{Rekor Transparency Ledger}
-    A -->|3. Push Image| D[Container Registry]
-    
+    A[Developer/CI Pipeline] -->|Sign and Attest| B[Sigstore/Cosign]
+    B -->|Log Entry| C[Rekor Transparency Ledger]
+    A -->|Push Image| D[Container Registry]
+
     subgraph "Federal Linux Cluster"
-    E[Kubernetes API] -->|4. Admission Request| F[Kyverno Policy Engine]
-    F -->|5. Verify Signature| B
-    F -->|6. Check Transparency| C
-    F -->|7. Enforce Policy| G[Running Pod]
+    E[Kubernetes API] -->|Admission Request| F[Kyverno Policy Engine]
+    F -->|Verify Signature| B
+    F -->|Check Transparency| C
+    F -->|Enforce Policy| G[Running Pod]
     end
 
     style G fill:#9f9,stroke:#333,stroke-width:2px
